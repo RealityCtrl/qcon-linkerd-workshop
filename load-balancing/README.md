@@ -27,10 +27,10 @@ open http://localhost:3000 # or docker ip address
 
 Note down the following values:
 
-* p50 latency: ____
-* p95 latency: ____
-* p99 latency: ____
-* success rate: ____
+* p50 latency: ____ 88ms
+* p95 latency: ____ 1.2-1.7s
+* p99 latency: ____ ~2s
+* success rate: ____ ~90%
 
 Notice the distribution of request volume per instance.  Do some servers seem
 to be serving more requests than others, or are they all roughly the same?
@@ -84,10 +84,10 @@ open http://localhost:3000 # or docker ip address
 
 Now note the following values:
 
-* p50 latency: ____
-* p95 latency: ____
-* p99 latency: ____
-* success rate: ____
+* p50 latency: ____ ~40ms
+* p95 latency: ____ ~620ms
+* p99 latency: ____ ~900ms
+* success rate: ____ ~99%
 
 Notice the distribution of request volume per instance.  Do some servers seem
 to be serving more requests than others, or are they all roughly the same?

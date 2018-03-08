@@ -22,4 +22,4 @@ routers:
       # currently pending requests.  The ewma load balancer (Expoentially
       # Weighted Moving Average) is a latency aware load balancing algorithm
       # that performs better when latency is a good indicator of load.
-      kind: p2c
+      kind: ewma
