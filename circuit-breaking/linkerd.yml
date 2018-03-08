@@ -21,6 +21,6 @@ routers:
     failureAccrual:
       kind: io.l5d.successRate
       # The success rate at which to trigger the circuit breaker
-      successRate: # FIXME
+      successRate: 0.9
       # Calculate success rate over the last N requests
-      requests: # FIXME
+      requests: 20

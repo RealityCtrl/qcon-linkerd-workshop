@@ -24,10 +24,12 @@ open http://localhost:3000 # or docker ip address
 
 Fill in the success rate here:
 
-* success rate: ____
+* success rate: ____ ~92%
 
 Notice the distribution of request volume per instance.  Do some servers seem
 to be serving more requests than others, or are they all roughly the same?
+
+volume 52-59 per insantance
 
 ## Adding Circuit-Breaking with Linkerd
 
@@ -84,10 +86,12 @@ open http://localhost:3000 # or docker ip address
 
 Note the success rate:
 
-* success rate: ____
+* success rate: ____  99.8
 
 Notice the distribution of request volume per instance.  Do some servers seem
 to be serving more requests than others, or are they all roughly the same?
+
+server 5 at 1 per second, others at 72-77 per second
 
 ## Clean up
 
